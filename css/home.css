@@ -60,7 +60,7 @@ nav ul li a:hover {
 .nav-cover {
   width: 100%;
   height: 250px;
-  background-image: url(/Images/header.jpg);
+  background-image: url(../Images/header.jpg);
   background-size: cover;
   background-position: center center;
 }
@@ -158,7 +158,7 @@ div h2 {
   background-position: center center;
   background-repeat: no-repeat;
   border: solid 1px #222;
-  background-image: url(/Images/new-iphone.jpg);
+  background-image: url(../Images/new-iphone.jpg);
 }
 
 
