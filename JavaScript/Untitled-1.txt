@@ -1,0 +1,31 @@
+list:
+  nisar
+  asma
+
+list:
+  asma
+  nisar
+
+list:
+  asma
+  asma
+
+lists: ordered, can have repetitions
+
+sets: not ordered, no repetitions
+
+set: nisar, asma
+set: asma, nisar
+set: nisar
+
+
+delete("nisar")
+   /* add: function(...names) {
+        for (let i = 0; i < names.length; i++) {
+            this.friends.add(names[i]);
+        }
+        this.showList();
+    },*/
+
+
+    // or :  friends: new Set(["Atefeh","Asma","Parvaneh"]),
