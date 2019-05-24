@@ -32,6 +32,45 @@ form {
 form input {
     text-align: center;
 }
+
+aside {
+    width: 25%;
+    background-color: #F3F3F3;
+}
+
+aside a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 0 10px 20px;
+    color: #222;
+}
+aside li {
+    background-color: #F3F3F3;
+    border-bottom: 1px solid #333;
+}
+
+aside h2 {
+    background-color: #333333;
+    color: #f2f2f2;
+    padding: 20px;
+    border-bottom: 1px solid #333;
+}
+.div-shop {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+
+#h2-details {
+    width: 100%;
+    background-color: #222;
+    color: #F3F3F3;
+    text-align: center;
+    font-size: 40px;
+}
+
+
 footer {
     bottom: 0;
     width: 100%;
@@ -82,16 +121,17 @@ footer a:hover {
 .shop {
     display: flex;
     flex-wrap:wrap;
-    width: 100%;
     font-size: 13px;
     
     background-color: #343A40;
-    margin-top: 20px;
     min-height: 500px;  
     justify-content: space-around;
 }
   
-  
+.produit-h1 {
+    width: 100%;
+    background-color: #333;
+} 
 .produit-image {
     margin-top: 18px;
     width: 170px;
@@ -114,7 +154,7 @@ footer a:hover {
 }
   
   
-#sold-out {
+.sold-out {
     background-color:#E2252B;
     color: #fff;
 }
@@ -130,8 +170,8 @@ footer a:hover {
 }
 
 
-  /* Icon's Classes*/
-  .fa-facebook {
+/* Icon's Classes*/
+.fa-facebook {
     color:#3C5A99;
 }
 .fa-twitter-square {
